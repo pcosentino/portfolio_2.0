@@ -1,15 +1,21 @@
 #container-fluid{
-	background:#5bc0de;
-	
-	li{
-		list-style: none;
-		text-align:center;
-		background:green;
-		color:red;
+	background:#FAEBD7;
+	nav{
+		ul{
+			padding:0;
+		}
+		li{
+			list-style: none;
+			text-align:center;
+			background:#7b98de;
+			color:#fff;
+			padding:1.2% 0;
+		}
 	}
+	
 	.well{
 		width:80%;
-		margin:0 auto;
+		margin:5% auto;
 	}
 
 }
