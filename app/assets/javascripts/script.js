@@ -1,1 +1,1 @@
-alert("Page Reloaded");
+console.log("Refresh Refresh!!!!");

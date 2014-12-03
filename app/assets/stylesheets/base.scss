@@ -1,21 +1,33 @@
+body{
+	background-image:url("background.jpg");
+	background-attachment:fixed;
+}
 #container-fluid{
-	background:#FAEBD7;
+	margin:0;
+	height:100%;
 	nav{
 		ul{
+			font-size:1.3em;;
 			padding:0;
+			position:fixed;
+			border-bottom: 4px solid #333;
+			border-radius:.3em;
 		}
 		li{
 			list-style: none;
 			text-align:center;
 			background:#7b98de;
 			color:#fff;
-			padding:1.2% 0;
+			padding:1% 0;
 		}
 	}
-	
+
 	.well{
 		width:80%;
-		margin: auto;
+		margin:2em auto;
 	}
 
+	section.home{
+		height:100vh;
+	}
 }
