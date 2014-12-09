@@ -1,14 +1,16 @@
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-body{
-	border:5px solid red;
-}
+@media all and (max-width : 1200px) {
 
-nav{
-	ul{
-		position:inherit;
+	body{
+		border:5px solid red;
 	}
-}
+	#container-fluid{
+		nav{
+			ul{
+				position:inherit;
+			}
+		}	
+	}
+	
+
 
 }
